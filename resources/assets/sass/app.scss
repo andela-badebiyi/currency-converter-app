@@ -1,0 +1,44 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+html {
+    font-size: 14px;
+}
+
+html, body, div#app {
+    height: 100%;
+    min-height: 100%;
+}
+nav {
+    a.brand-logo {
+        color: #fff;
+    }
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.container {
+    height: auto;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+span.caret {
+    display: none;
+}
